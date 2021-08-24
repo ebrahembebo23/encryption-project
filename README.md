@@ -7,7 +7,9 @@
 3. Change the Key
 4. Exit 
 #### Our algorithm based on the key that entered by the user 
-### so, let's talk about the key the we mentioned above
-#### Key is 
+### so, let's talk about the key the we mentioned above:
+### Key is variable that shift every letter in the string that has been input by the user by its value in 2 ways :
+#### Forward when user choose Encrypt option
+#### Backward when user choose Decrypt option
 
 
