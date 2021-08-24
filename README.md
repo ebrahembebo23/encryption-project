@@ -6,5 +6,8 @@
 2. Decrypt
 3. Change the Key
 4. Exit 
+#### Our algorithm based on the key that entered by the user 
+##### so, let's talk about the key the we mentioned above
+#### Key is 
 
 
