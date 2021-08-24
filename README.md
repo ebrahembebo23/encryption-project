@@ -11,5 +11,6 @@
 ### Key is variable that shift every letter in the string that has been input by the user by its value in 2 ways :
 #### Forward when user choose Encrypt option
 #### Backward when user choose Decrypt option
-
+### also there is *change key* option to make user able to change it whenever he want
+## Finall option to the user is to *Exit* the program
 
