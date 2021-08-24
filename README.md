@@ -6,4 +6,6 @@
 2. Decrypt
 3. Change the Key
 4. Exit 
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
 
