@@ -82,13 +82,13 @@ void encryption_key()
     printf("\nINVALID INPUT\n");
     exit(0);
   }
-  n = x * y;
-  t = (x-1) * (y-1);
+  n = x * y;                    // compute the key  (3*7 = 21)
+  t = (x-1) * (y-1);           // compute the euler of the key  (2*6 =12)
   int k;
   k = 0;
-  for(i = 2; i < t; i++)
+  for(i = 2; i < t; i++)       // loop to know the possible values of e and d
   {
-    if(t % i == 0)
+    if(t % i == 0)             // e should be 1 < e < t and comprime with t(7)
      continue;
     flag = prime(i);
     if(flag == 1 && i != x && i != y)
