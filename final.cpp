@@ -116,11 +116,12 @@ int menu(int key)
 		case 1:
 			key = Encrypt();
 			menu(key);
+		break;
 		case 2:
 			
 			Decrypt();
 			menu(key);
-			
+		break;
 		case 3:
 		    return 0;
 	}
