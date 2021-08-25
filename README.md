@@ -26,4 +26,11 @@
 3. *Exit*
 ![Alt Text](https://github.com/ebrahembebo23/encryption-project/blob/main/E33.jpg)
  # third algorithm
- 
+ ## The program baised on three main functions 
+### encryption_key()
+#### Select two large prime numbers x and y then compute them (n = x * y) then calculate the euler t= (x − 1)(y − 1)  then choose an integer e that must be between 1 and euler and must be comprime with it finally we choose  d that d is the multiplicative inverse of e in mod ø (n)
+, the key is (n,e)
+### 2 encrypt()
+#### For each character in the message we change it based on C=M^n( mod n )
+### 3: decrypt()
+#### For each character in the message we change it based on M = C ^ d ( mod n )the inverse of the encryption equation
